@@ -371,6 +371,13 @@ const BATCHES = [
       ["krem-ziemn-por", "Krem ziemniaczano-porowy", "4 porcje", 5, "soup", 0, 0, 0],
     ],
   },
+  {
+    // Dopisek z 24.11: klopsiki na półce 3 lodówki.
+    id: "2026-11-24-klopsiki",
+    adds: [
+      ["klopsiki-3", "Klopsiki", "", 3, "meat", 0, 0, 0],
+    ],
+  },
 ];
 
 function applyBatches(s) {
