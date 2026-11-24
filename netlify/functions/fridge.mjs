@@ -384,6 +384,39 @@ const BATCHES = [
     id: "2026-11-24-wyczyszczenie",
     replace: [],
   },
+  {
+    // Nowa lodówka z 24.11.2026 (dyktowana), zastępuje wszystkie pozycje (zamrażarka też).
+    // Pola: id, nazwa, ilość, półka, kat., użyć jutro (today), rozmraża się, catering.
+    // Zamrażarka 1 = półki 11–17; zupa brokułowa na półce 11. Gołąbki bez półki (0).
+    id: "2026-11-24-nowa-lista",
+    date: "24.11.2026",
+    replace: [
+      ["sos-jogurtowy", "Sos jogurtowy", "4 porcje", 2, "sauce", 0, 0, 0],
+      ["watrobka", "Wątróbka", "1 porcja", 2, "meat", 0, 0, 0],
+      ["szpinak", "Szpinak", "pół wiaderka", 2, "dish", 0, 0, 0],
+      ["sos-pieczeniowy", "Sos pieczeniowy", "1 duże wiadro", 2, "sauce", 0, 0, 0],
+      ["krem-dyniowo-marchewkowy", "Krem dyniowo-marchewkowy", "2 porcje", 2, "soup", 0, 0, 0],
+      ["sos-koperkowy", "Sos koperkowy", "pół wiaderka", 2, "sauce", 0, 0, 0],
+      ["sos-pomidorowy", "Sos pomidorowy", "1 duże wiadro", 2, "sauce", 0, 0, 0],
+      ["kasza-bulgur", "Kasza bułgur", "1 pudełko", 3, "dish", 0, 0, 0],
+      ["filet-grillowany", "Filet grillowany", "5 porcji", 3, "meat", 1, 0, 0],
+      ["ryz", "Ryż", "1 bemar", 3, "dish", 0, 0, 0],
+      ["klopsiki-bemar", "Klopsiki (z bemara)", "1/3 wiadra", 3, "meat", 1, 0, 0],
+      ["klopsiki-lodowka", "Klopsiki (z lodówki)", "1/3 wiadra", 3, "meat", 1, 0, 0],
+      ["pulpety", "Pulpety", "1 mały bemar", 3, "meat", 0, 0, 0],
+      ["golabki", "Gołąbki", "1 bemar", 0, "meat", 0, 0, 0],
+      ["gulasz-1", "Gulasz węgierski", "1 wiadro", 4, "meat", 1, 1, 0],
+      ["gulasz-2", "Gulasz węgierski", "1/3 wiadra", 4, "meat", 1, 0, 0],
+      ["bolognese-1", "Bolognese", "1 małe wiaderko", 4, "sauce", 1, 0, 0],
+      ["bolognese-2", "Bolognese", "1 wiaderko", 4, "sauce", 1, 1, 0],
+      ["wywar-bitki", "Wywar z bitek", "", 4, "soup", 0, 0, 0],
+      ["wywar-4", "Wywar", "", 4, "soup", 0, 0, 0],
+      ["makaron-swiderki", "Makaron świderki", "1 pojemnik", 5, "dish", 0, 0, 0],
+      ["wywar-5", "Wywar", "", 5, "soup", 0, 0, 0],
+      ["sos-grzybowy", "Sos grzybowy", "", 5, "sauce", 0, 0, 0],
+      ["zupa-brokulowa", "Zupa brokułowa", "1 duże wiadro", 11, "soup", 0, 0, 0],
+    ],
+  },
 ];
 
 function applyBatches(s) {
