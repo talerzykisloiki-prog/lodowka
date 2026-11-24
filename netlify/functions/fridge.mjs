@@ -372,10 +372,11 @@ const BATCHES = [
     ],
   },
   {
-    // Dopisek z 24.11: klopsiki na półce 3 lodówki.
+    // Dopiski z 24.11: klopsiki na półce 3, gulasz na półce 4.
     id: "2026-11-24-klopsiki",
     adds: [
       ["klopsiki-3", "Klopsiki", "", 3, "meat", 0, 0, 0],
+      ["gulasz-2", "Gulasz węgierski", "1 wiaderko", 4, "meat", 0, 0, 0],
     ],
   },
 ];
