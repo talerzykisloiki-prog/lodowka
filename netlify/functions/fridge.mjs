@@ -417,6 +417,16 @@ const BATCHES = [
       ["zupa-brokulowa", "Zupa brokułowa", "1 duże wiadro", 11, "soup", 0, 0, 0],
     ],
   },
+  {
+    // Dopiski do nowej lodówki z 24.11 (dyktowane).
+    id: "2026-11-24-dodatki-3",
+    adds: [
+      ["makaron-duza", "Makaron", "duża porcja", 5, "dish", 0, 0, 0],
+      ["palki", "Pieczone pałki", "", 5, "meat", 0, 0, 0],
+      ["nalesniki", "Naleśniki", "", 3, "main", 0, 0, 0],
+      ["pulpety-wege", "Pulpety wege", "1 porcja", 2, "dish", 0, 0, 0],
+    ],
+  },
 ];
 
 function applyBatches(s) {
