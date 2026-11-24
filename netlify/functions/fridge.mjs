@@ -445,6 +445,7 @@ function clean(raw, i) {
     nodate: raw.nodate === true,
     cart: false,
     today: raw.today === true,
+    catering: raw.catering === true,
     ord: i + 1,
   };
 }
