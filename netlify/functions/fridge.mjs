@@ -379,6 +379,11 @@ const BATCHES = [
       ["gulasz-2", "Gulasz węgierski", "1 wiaderko", 4, "meat", 0, 0, 0],
     ],
   },
+  {
+    // Wyczyszczenie całej lodówki (24.11): wszystkie pozycje usunięte.
+    id: "2026-11-24-wyczyszczenie",
+    replace: [],
+  },
 ];
 
 function applyBatches(s) {
