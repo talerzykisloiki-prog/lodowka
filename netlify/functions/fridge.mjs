@@ -427,6 +427,30 @@ const BATCHES = [
       ["pulpety-wege", "Pulpety wege", "1 porcja", 2, "dish", 0, 0, 0],
     ],
   },
+  {
+    // Nowa lodówka z 25.11.2026 (dyktowana): wczorajsza lista skreślona, zastępuje wszystkie pozycje.
+    // Pola: id, nazwa, ilość, półka, kat., użyć jutro (today), rozmraża się, catering.
+    id: "2026-11-25-nowa-lista",
+    date: "25.11.2026",
+    replace: [
+      ["sos-pieczeniowy", "Sos pieczeniowy", "pół dużego wiaderka (trochę więcej)", 2, "sauce", 0, 0, 0],
+      ["sos-koperkowy", "Sos koperkowy", "pół dużego wiaderka", 2, "sauce", 0, 0, 0],
+      ["sos-winegret", "Sos winegret", "pół małego wiaderka", 2, "sauce", 0, 0, 0],
+      ["kasza-gryczana", "Kasza gryczana", "1 pudełeczko", 2, "dish", 0, 0, 0],
+      ["bitka", "Bitka", "1 porcja", 2, "meat", 0, 0, 0],
+      ["wywar-bitka", "Wywar z bitki", "małe wiaderko", 2, "soup", 0, 0, 0],
+      ["pulpety-wieprzowe", "Pulpety wieprzowe", "1 porcja", 2, "meat", 0, 0, 0],
+      ["szpinak", "Szpinak", "1 porcja", 2, "dish", 0, 0, 0],
+      ["golabki-prozniowe", "Gołąbki (próżnia)", "6 porcji", 3, "meat", 0, 0, 0],
+      ["sos-pomidorowy", "Sos pomidorowy", "pół dużego wiaderka", 3, "sauce", 0, 0, 0],
+      ["palki", "Pieczone pałki", "4 porcje", 3, "meat", 1, 0, 0],
+      ["potrawka-wege", "Potrawka wegetariańska", "pół małego wiaderka", 3, "dish", 0, 0, 0],
+      ["kotlety-wege", "Kotlety wege", "3 porcje", 3, "main", 0, 0, 0],
+      ["krem-kalafiorowy-wege", "Krem wege kalafiorowy", "ok. 3 porcje", 4, "soup", 0, 0, 0],
+      ["krupnik", "Krupnik", "1 duże wiadro", 4, "soup", 0, 0, 0],
+      ["makaron-swiderki", "Makaron świderki", "1 pudełko", 6, "dish", 1, 0, 0],
+    ],
+  },
 ];
 
 function applyBatches(s) {
